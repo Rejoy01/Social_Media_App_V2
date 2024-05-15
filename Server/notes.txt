@@ -1,0 +1,27 @@
+step 1 : install dependencies
+
+npm i express
+
+provide all the basic tools and method to initialize a server
+
+npmi i mongoose
+
+installing mongoose will provide us with an method to make model or schema in our servverside
+
+npm i body-parser
+
+its a middleware it basically checks our http request that comes from our client side the data and http request is providing is valid 
+to run on the server
+so it protect our sever before crashing
+
+npm i nodemon
+
+inside package.json 
+under "main": "index.js"
+{
+    "type": "module"
+}
+
+so that we can import packages like we import in react
+
+npm i dotenv for .env files
